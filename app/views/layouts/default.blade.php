@@ -75,7 +75,7 @@ PHPHub  - PHP & Laravel的中文社区
 	      </p>
 
 	      <p class="pull-right">
-	      	<a href="https://www.ucloud.cn/?utm_source=zanzhu&utm_campaign=phphub&utm_medium=display" target="_blank"><img src="{{ cdn('assets/images/ucloud.png') }}" width="98" data-toggle="tooltip" data-placement="top" title="本站服务器由 UCloud 赞助"></a>.
+	      	<a href="http://www.ucloud.cn/?utm_source=zanzhu&utm_campaign=phphub&utm_medium=display&utm_content=yejiao&ytag=phphubyejiao" target="_blank"><img src="https://dn-phphub.qbox.me/uploads/images/201605/03/1/dYfOYswiQY.png" width="98" data-toggle="tooltip" data-placement="top" title="本站服务器由 UCloud 赞助"></a>.
 	      </p>
 	    </div>
 	  </div>
@@ -91,7 +91,7 @@ PHPHub  - PHP & Laravel的中文社区
           m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
           })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-          ga('create', 'UA-53903425-1', 'auto');
+          ga('create', '{{ getenv('GA_Tracking_ID') }}', 'auto');
           ga('send', 'pageview');
 
         </script>

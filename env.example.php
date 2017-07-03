@@ -36,7 +36,9 @@ return [
 
     'bugsnag_api_key'   => 'you key here',
 
-    'JPUSH_KEY'='',
-    'JPUSH_SECRET'='',
-    'JPUSH_PRODUCTION'=false,
+    'JPUSH_KEY' => '',
+    'JPUSH_SECRET' => '',
+    'JPUSH_PRODUCTION' => false,
+
+    'GA_Tracking_ID' => '',
 ];
